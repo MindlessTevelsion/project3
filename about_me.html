@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>@import url(style.css);</style>
+</head>
+
+<header>
+    <nav>
+        <ul id="nav">
+           <li><a href="index1.html">Home</a></li>
+           <li><a href="about_me.html"> About </a></li>
+           <li><a href="gallery.html"> Gallery </a></li>
+           <li><a href="contact/contact_info.html"> Contact</a></li>
+        </ul>
+        <div class="hero_image">
+        </div>
+    </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+            $(".one").hide();
+        });
+        });
+    </script>
+    <h1> Alittle About Emily </h1>
+</header>
+<body>
+    <p> I was born in Charleston, West Virgina on July 18th, 2002.
+        I grew up in a small town with my parents and my two siblings. <br>
+        I knew from a young age that I wanted to do something with computers or technology.
+        My love of movies pushed me to want to be a part of the team that created works of art. <br>
+        So in 2020 i started my college education at polk state and went into the digital media program.<br>
+        <br>
+        <img src="images/the_sibling.jpg" width="500" rotate(90) alt="Photo of Emily with her Siblings">
+    </p>
+
+    <h1> two truths and a lie </h1>
+    <caption>click the button and the lie disappears</caption>
+    <p>I have 6 tattoos </p>
+    <p>I love dying my hair strange colors </p>
+    <p class="one">my favorite color is pink </p>
+    <button>Answer</button>
+
+
+    
+    <h1> Other Options</h1>
+
+    <p>Check out some of my work</p>
+    <button class="button"> <a href="gallery.html"> Gallery </a></button>
+
+    <P> Contact me with any questions</p>
+    <button class="button"> <a href="contact/contact_info.html"> Contact </a></button>
+    
+</body>
+<footer>
+    this is a fake website used for educational purposes only &copy; copyright
+</footer>
+</html>
